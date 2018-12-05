@@ -91,12 +91,10 @@ func Zip(srcFile []string, destZip string) error {
 			if err != nil {
 				return err
 			}
-
 			header, err := zip.FileInfoHeader(info)
 			if err != nil {
 				return err
 			}
-
 			header.Name = strings.TrimPrefix(path, filepath.Dir(file_or_folder)+"/")
 			// header.Name = path
 			if info.IsDir() {
@@ -104,12 +102,10 @@ func Zip(srcFile []string, destZip string) error {
 			} else {
 				header.Method = zip.Deflate
 			}
-
 			writer, err := archive.CreateHeader(header)
 			if err != nil {
 				return err
 			}
-
 			if !info.IsDir() {
 				file, err := os.Open(path)
 				if err != nil {
