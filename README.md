@@ -11,6 +11,10 @@ golang使用方法：
 ```bat
 go run main.go
 ```
+python使用方法:
+```python
+python pkg3.py
+```
 ## 版本状态
 1.0到3.0版本为python脚本，在不装python的情况下难以支持跨平台（主要是XP），所以5.0版本使用golang重写。性能也得到了提升
 
