@@ -1,6 +1,7 @@
 # vijostools
 > powered by 星夜的蓝天 www.poi.ac  
 
+[下载地址](https://github.com/Blues-star/vijostools/releases)  
 ![欢迎来我的主站玩耍](https://i.loli.net/2018/12/05/5c07655a514ae.jpg)
 ## 描述
 vijos数据文件打包器，自用
