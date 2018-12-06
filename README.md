@@ -1,10 +1,10 @@
 # vijostools
 > powered by 星夜的蓝天 www.poi.ac  
 
-[下载地址](https://github.com/Blues-star/vijostools/releases)  
+
 ![欢迎来我的主站玩耍](https://i.loli.net/2018/12/05/5c07655a514ae.jpg)
 ## 描述
-vijos数据文件打包器，自用
+vijos数据文件打包器，自用,[下载地址](https://github.com/Blues-star/vijostools/releases)  
 ## 用法
 将exe文件放置在数据目录里，打开即可。exe需要手动构建，或者直接使用python脚本也可以    
 
